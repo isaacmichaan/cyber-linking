@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import re
 
 # connect to MongoDB, change the << MONGODB URL >> to reflect your own connection string
-client = MongoClient("mongodb+srv://isaacmichaan1:11Yossef@cluster0-gvxqb.gcp.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://<username>:<password>@cluster0-gvxqb.gcp.mongodb.net/test?retryWrites=true&w=majority")
 db=client.peopleList
 
 emails = ['isaac.michaan@hotmail.com', 'alex.klein@hotmail.com', 'uriel.max@hotmail.com', 'bill.gates@hotmail.com']
